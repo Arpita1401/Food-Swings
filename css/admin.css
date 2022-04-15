@@ -1,0 +1,150 @@
+/* Admin */
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.wrapper {
+    padding: 1%;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.clear-fix {
+    float: none;
+    clear: both;
+}
+
+
+/* Menu CSS */
+
+.menu {
+    border-bottom: 2px solid grey;
+}
+
+.menu ul {
+    list-style-type: none;
+}
+
+.menu ul li {
+    display: inline;
+    padding: 1%;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #ff6b81;
+}
+
+.menu ul li a:hover {
+    color: #ff4757;
+}
+
+
+/* css for main content */
+
+.main-content {
+    background-color: #f1f2f6;
+    padding: 3% 0;
+}
+
+.col-4 {
+    width: 17%;
+    background-color: white;
+    margin: 2%;
+    padding: 2%;
+    float: left;
+}
+
+.tbl-full {
+    width: 100%;
+}
+
+.tbl-30 {
+    width: 30%;
+}
+
+table tr th {
+    border-bottom: 1px solid black;
+    padding: 1%;
+    text-align: left;
+}
+
+table tr td {
+    padding: 1%;
+    text-align: left;
+}
+
+.btn-primary {
+    background-color: #3742fa;
+    padding: 1%;
+    color: white;
+    border-radius: 3px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.btn-primary:hover {
+    background-color: #5352ed;
+}
+
+.btn-secondary {
+    background-color: #2ed573;
+    padding: 1%;
+    color: white;
+    border-radius: 3px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.btn-secondary:hover {
+    background-color: #0c9c3a;
+}
+
+.btn-danger {
+    background-color: #ff6348;
+    padding: 1%;
+    color: white;
+    border-radius: 3px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.btn-danger:hover {
+    background-color: #ec2a3a;
+}
+
+.success {
+    color: #0c9c3a;
+}
+
+.error {
+    color: #ec2a3a;
+}
+
+
+/* footer CSS */
+
+.footer {
+    color: wheat;
+    background-color: #ff4757;
+}
+
+
+/* css for login */
+
+.login {
+    width: 30%;
+    border: 3px solid grey;
+    border-radius: 8%;
+    margin: 7% auto;
+    padding: 2%;
+    background-color: #dfe4ea;
+}
